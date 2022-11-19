@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "SeSxMMkR8HA9"
+      },
+      "outputs": [],
+      "source": [
+        "{\n",
+        "  \"nbformat\": 4,\n",
+        "  \"nbformat_minor\": 0,\n",
+        "  \"metadata\": {\n",
+        "    \"colab\": {\n",
+        "      \"provenance\": []\n",
+        "    },\n",
+        "    \"kernelspec\": {\n",
+        "      \"name\": \"python3\",\n",
+        "      \"display_name\": \"Python 3\"\n",
+        "    },\n",
+        "    \"language_info\": {\n",
+        "      \"name\": \"python\"\n",
+        "    }\n",
+        "  },\n",
+        "  \"cells\": [\n",
+        "    {\n",
+        "      \"cell_type\": \"markdown\",\n",
+        "      \"source\": [\n",
+        "        \"**Flask App (Step-1)**\"\n",
+        "      ],\n",
+        "      \"metadata\": {\n",
+        "        \"id\": \"hy1SjpADaHhC\"\n",
+        "      }\n",
+        "    },\n",
+        "    {\n",
+        "      \"cell_type\": \"code\",\n",
+        "      \"execution_count\": 4,\n",
+        "      \"metadata\": {\n",
+        "        \"id\": \"tAlBsIXlZ-Ym\"\n",
+        "      },\n",
+        "      \"outputs\": [],\n",
+        "      \"source\": [\n",
+        "        \"import numpy as np\\n\",\n",
+        "        \"from flask import Flask, request, jsonify, render_template\\n\",\n",
+        "        \"import pickle\"\n",
+        "      ]\n",
+        "    },\n",
+        "    {\n",
+        "      \"cell_type\": \"code\",\n",
+        "      \"source\": [\n",
+        "        \"app = Flask(__name__)\\n\",\n",
+        "        \"model = pickle.load(open('Phishing_Website.pkl','rb'))\"\n",
+        "      ],\n",
+        "      \"metadata\": {\n",
+        "        \"id\": \"cw1s_6SMactn\"\n",
+        "      },\n",
+        "      \"execution_count\": 9,\n",
+        "      \"outputs\": []\n",
+        "    },\n",
+        "    {\n",
+        "      \"cell_type\": \"code\",\n",
+        "      \"source\": [],\n",
+        "      \"metadata\": {\n",
+        "        \"id\": \"lktOPTSxanzX\"\n",
+        "      },\n",
+        "      \"execution_count\": null,\n",
+        "      \"outputs\": []\n",
+        "    }\n",
+        "  ]\n",
+        "}"
+      ]
+    }
+  ]
+}
